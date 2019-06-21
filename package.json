@@ -1,0 +1,21 @@
+{
+  "name": "hello-world-component-test",
+  "version": "0.0.7",
+  "description": "Testing push and pull from npm package with hello world.",
+  "main": "dist/HelloWorldComponent.umd.js",
+  "module": "dist/HelloWorldComponent.esm.js",
+  "unpkg": "dist/HelloWorldComponent.min.js",
+  "browser": {
+    "./sfc": "src/hello-world-component.vue"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello-world-component"
+  ],
+  "author": "Perdeep",
+  "license": "ISC"
+}
